@@ -4,3 +4,32 @@ Hello everyone. This is a simple calculator that allows you to evaluate the loca
 Example
 
 ![alt text](https://github.com/vonOrso/Dashboard_calculator/blob/main/Examples/Example.png?raw=true)
+
+<details>
+  <summary>User Guide</summary>
+  The main dashboard_calculator function is in the defs_calculator. The Size_notebook contains a small example of how the function works.
+  
+  You need to specify the size of the dashboard.
+  
+  ![image](https://user-images.githubusercontent.com/43719238/149387416-85a14bb9-3404-40cf-9c53-26fc273d3f22.png)
+  
+  You also need to specify the structure of the dashboard. The db_hor_sizes parameter specifies the number of blocks on each line and their width. 
+  
+  ![image](https://user-images.githubusercontent.com/43719238/149390312-10f827da-25c1-4d88-be9e-aee2369f553f.png)
+  
+  If you specify 'Auto' instead of size for blocks, the calculator will automatically calculate their sizes depending on the remaining width. That is, if there are 500 pixels left (in width) and 'Auto' was specified for two blocks, then the system will create two blocks of 250 pixels each. The red arrows mark the width that was calculated automatically, and the orange arrows indicate the width that was originally set.
+
+  ![image](https://user-images.githubusercontent.com/43719238/149388631-a29df55c-1f63-4871-bd26-c0c2465972ed.png)
+  
+  It is not necessary to specify the height of each block, instead db_ver_sizes sets the height for all blocks in the line.
+  
+  ![image](https://user-images.githubusercontent.com/43719238/149392071-e5c01292-f843-4cad-98c2-642cc9f1415b.png)
+
+  ![image](https://user-images.githubusercontent.com/43719238/149391615-a72c1ef6-c640-48a9-9bbe-cd0a63f9cc00.png)
+  
+  ![image](https://user-images.githubusercontent.com/43719238/149393189-0dc9584a-4a7e-45df-9a38-f74b3a75055d.png)
+  
+  These four parameters are required to specify. The result is a picture with the desired coordinates and dimensions.
+  
+  ![alt text](https://github.com/vonOrso/Dashboard_calculator/blob/main/Examples/Example.png?raw=true)
+</details>
