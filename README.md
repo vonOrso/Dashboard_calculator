@@ -37,8 +37,8 @@ Example
 
 <details>
   <summary>Additional Options</summary>
-  global_borders - size of borders between blocks (type - int, default - 8);
   
+  global_borders - size of borders between blocks (type - int, default - 8);
   
   img_name_and_format - path, image name and type (type - st, default - '');
   
