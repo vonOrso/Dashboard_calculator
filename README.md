@@ -1,5 +1,5 @@
 # Dashboard calculator
-Hello everyone. This is a simple calculator that allows you to evaluate the location of blocks on the dashboard. After specifying the structure of the dashboard and the sizes of some blocks, the calculator will calculate the position of all blocks and their sizes. This calculator allows you to easily place blocks by coordinates.
+Hello everyone. This is a simple calculator that allows you to evaluate the location of blocks on the dashboard. After specifying the structure of the dashboard and the sizes of some blocks, the calculator will calculate the position of all blocks and their sizes. This calculator allows you to easily place blocks by coordinates. All dimensions are in pixels.
 
 Example
 
@@ -33,4 +33,18 @@ Example
   These four parameters are required to specify. The result is a picture with the desired coordinates and dimensions.
   
   ![alt text](https://github.com/vonOrso/Dashboard_calculator/blob/main/Examples/Example.png?raw=true)
+</details>
+
+<details>
+  <summary>Additional Options</summary>
+  global_borders - size of borders between blocks (type - int, default - 8);
+  img_name_and_format - path, image name and type (type - st, default - '');
+  save - should the image be saved? (type - str, default - 'No');
+  show - should the image be showed? (type - str, default - 'Yes');
+  font - text font (default - ImageFont.truetype("arial.ttf", size=30)); 
+  background_color - background color (type - str, default - '#E5E5E5'); 
+  block_color - block_color (type - str, default - 'white'); 
+  text_color - text color (type - str, default - '#484848');
+  outer_padding - outer padding of text (type - int, default - 4); 
+  text_pos_correction - this setting needs to be adjusted if the default font has been changed (type - int, default - 35).
 </details>
