@@ -3,7 +3,7 @@ Hello everyone. This is a simple calculator that allows you to evaluate the loca
 
 Example
 
-![alt text](https://github.com/vonOrso/Dashboard_calculator/blob/main/Examples/Example.png?raw=true)
+![alt text](https://github.com/vonOrso/Dashboard_calculator/blob/main/Example.png?raw=true)
 
 <details>
   <summary>User Guide</summary>
@@ -32,7 +32,7 @@ Example
   
   These four parameters are required to specify. The result is a picture with the desired coordinates and dimensions.
   
-  ![alt text](https://github.com/vonOrso/Dashboard_calculator/blob/main/Examples/Example.png?raw=true)
+  ![alt text](https://github.com/vonOrso/Dashboard_calculator/blob/main/Example.png?raw=true)
 </details>
 
 <details>
