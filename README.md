@@ -7,6 +7,7 @@ Example
 
 <details>
   <summary>User Guide</summary>
+  
   The main dashboard_calculator function is in the defs_calculator. The Size_notebook contains a small example of how the function works.
   
   You need to specify the size of the dashboard.
