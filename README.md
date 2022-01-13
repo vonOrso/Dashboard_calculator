@@ -38,23 +38,23 @@ Example
 <details>
   <summary>Additional Options</summary>
   
-  global_borders - size of borders between blocks (type - int, default - 8);
+  ● global_borders - size of borders between blocks (type - int, default - 8);
   
-  img_name_and_format - path, image name and type (type - st, default - '');
+  ● img_name_and_format - path, image name and type (type - st, default - '');
   
-  save - should the image be saved? (type - str, default - 'No');
+  ● save - should the image be saved? (type - str, default - 'No');
   
-  show - should the image be showed? (type - str, default - 'Yes');
+  ● show - should the image be showed? (type - str, default - 'Yes');
   
-  font - text font (default - ImageFont.truetype("arial.ttf", size=30)); 
+  ● font - text font (default - ImageFont.truetype("arial.ttf", size=30)); 
   
-  background_color - background color (type - str, default - '#E5E5E5'); 
+  ● background_color - background color (type - str, default - '#E5E5E5'); 
   
-  block_color - block_color (type - str, default - 'white'); 
+  ● block_color - block_color (type - str, default - 'white'); 
   
-  text_color - text color (type - str, default - '#484848');
+  ● text_color - text color (type - str, default - '#484848');
   
-  outer_padding - outer padding of text (type - int, default - 4); 
+  ● outer_padding - outer padding of text (type - int, default - 4); 
   
-  text_pos_correction - this setting needs to be adjusted if the default font has been changed (type - int, default - 35).
+  ● text_pos_correction - this setting needs to be adjusted if the default font has been changed (type - int, default - 35).
 </details>
